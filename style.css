@@ -1,0 +1,45 @@
+.s {
+  text-decoration:line-through;
+}
+ body {
+   margin:0;
+ }
+ a {
+   color:black;
+    text-decoration:none;
+  }
+ h1 {
+   font-size: 55px;
+   text-align: center;
+   border-bottom: 1px solid gray;
+   padding: 20px;
+   margin:0;
+ }
+ #grid ul {
+   width: 140px;
+   border-right: solid gray 1px;
+   margin:0px;
+   font-size:17px;
+   padding:20px;
+   padding-left: 30px;
+ }
+#grid {
+  display:grid;
+  grid-template-columns: 190px 1fr;
+}
+#main{
+   padding: 20px;
+}
+@media(max-width:700px) {
+  #grid{
+    display:block;
+  }
+  h1, #grid ul {
+    border:none;
+  }
+}
+@media(max-width:443px) {
+  *{
+    background-image: url(화면이작다.jpg);
+  }
+}
