@@ -30,6 +30,10 @@
 #main{
    padding: 20px;
 }
+#disqus_thread{
+  margin-left: 2px;
+  margin-right: 2px;
+}
 @media(max-width:700px) {
   #grid{
     display:block;
