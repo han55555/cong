@@ -4,23 +4,43 @@
   <title>first</title>
   <meta charset="utf-8">
   <link rel="stylesheet" href="style.css">
+  <style>/*이 스타일태그와 h2를 감싸는 <div class="perspective></div>"부분은 css 3d의 실습을위해 추가되었음*/
+  h2 {
+    border: 1px solid black;
+    background-color: lightgray;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotateY(40deg);
+  }
+  .perspective {
+    perspective: 200px;
+    display: flex;
+    width: 150px;
+    height: 150px;
+    perspective: 800px;
+  }
+  </style>
 </head>
 <body>
   <h1><a href="index.html">르미엘르커피꽁</a></h1>
   <div id="grid">
-    <ul><strong>뭐먹을래</strong>
-        <li><a href="1.html">유자차먹을래</a></li>
-        <li><a href="2.html">초코칩프라푸치노먹을래</a></li/>
-        <li><a href="3.html">얼그레이 먹을래</a></li>
-        <br>
-        <br>
-        <strong>tlqkf</strong>
-        <li><a href="4.html" class="s">tlqkf</a></li>
-    </ul>
+      <ul><strong>뭐먹을래</strong>
+          <li><a href="1.html">유자차먹을래</a></li>
+          <li><a href="2.html">초코칩프라푸치노먹을래</a></li/>
+          <li><a href="3.html">얼그레이 먹을래</a></li>
+          <br>
+          <br>
+          <strong>tlqkf</strong>
+          <li><a href="4.html" class="s">tlqkf</a></li>
+      </ul>
     <div id="main">
-      <h2><a href="http://www.lemielcoffee.com/" target="blank" title="르미에르커삐꽁">르미엘커피</a></h2>
+        <div class="perspective">
+        <h2><a href="http://www.lemielcoffee.com/" target="blank" title="르미에르커삐꽁">르미엘커피</a></h2>
+        </div>
       <p>
-        르미엘 커피는 24시간이다.르미엘 커피는 24시간이다.르미엘 커피는 24시간이다.르미엘 커피는 24시간이다.르미엘 커피는 24시간이다.르미엘 커피는 24시간이다.르미엘 커피는 24시간이다.르미엘 커피는 24시간이다.르미엘 커피는 24시간이다.르미엘 커피는 24시간이다.르미엘 커피는 24시간이다.르미엘 커피는 24시간이다.르미엘 커피는 24시간이다.르미엘 커피는 24시간이다.르미엘 커피는 24시간이다.르미엘 커피는 24시간이다.르미엘 커피는 24시간이다.르미엘 커피는 24시간이다.르미엘 커피는 24시간이다.르미엘 커피는 24시간이다.르미엘 커피는 24시간이다.르미엘 커피는 24시간이다.르미엘 커피는 24시간이다.르미엘 커피는 24시간이다.르미엘 커피는 24시간이다.르미엘 커피는 24시간이다.르미엘 커피는 24시간이다.르미엘 커피는 24시간이다.르미엘 커피는 24시간이다.르미엘 커피는 24시간이다.르미엘 커피는
+        르미엘 커피는 24시간이다.르미엘 커피는 24시간이다.르미엘 커피는 24시간이다.르미엘 커피는 24시간이다.르미엘 커피는 24시간이다.르미엘 커피는 24시간이다.르미엘 커피는 24시간이다.르미엘 커피는 24시간이다.르미엘 커피는 24시간이다.르미엘 커피는 24시간이다.르미엘 커피는 24시간이다.르미엘 커피는 24시간이다.르미엘 커피는 24시간이다.르미엘 커피는 24시간이다.르미엘 커피는 24시간이다.르미엘 커피는 24시간이다.르미엘 커피는 24시간이다.르미엘 커피는 24시간이다.르미엘 커피는 24시간이다.르미엘 커피는 24시간이다.르미엘 커피는 24시간이다.르미엘 커피는 24시간이다.르미엘 커피는 24시간이다.르미엘 커피는 24시간이다.르미엘 커피는 24시간이다.르미엘 커피는 24시간이다.르미엘 커피는 24시간이다.르미엘 커피는 24시간이다.르미엘 커피는 24시간이다.르미엘 커피는 24시간이다.르미엘 4radcx커피는
       </p>
       <p>
         르미엘커피는 남부터미널 유일한 24시간카페다.<br>
@@ -28,28 +48,30 @@
         르미엘커피는 남부터미널 유일한 24시간카페다.<br>
         르미엘커피는 남부터미널 유일한 24시간카페다.<br>
       </p>
+      <p>
       <img src="르미엘.jpg" width="75%">
+      </p>
+             <div id="disqus_thread"></div>
+      <script>
+
+      /**
+      *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+      *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+      /*
+      var disqus_config = function () {
+      this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+      this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+      };
+      */
+      (function() { // DON'T EDIT BELOW THIS LINE
+      var d = document, s = d.createElement('script');
+      s.src = 'https://cong-1.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+      })();
+      </script>
+      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
     </div>
   </div>
-       <div id="disqus_thread"></div>
-<script>
-
-/**
-*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-/*
-var disqus_config = function () {
-this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-};
-*/
-(function() { // DON'T EDIT BELOW THIS LINE
-var d = document, s = d.createElement('script');
-s.src = 'https://cong-1.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 </body>
 </html>

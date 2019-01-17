@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>css 3d study</title>
+    <style>
+      html, body, h1, h2, h3, h4, h5, h6, p, blockquote, code, img, dl, dt, dd, ol, ul, li, fieldset, legend, caption {
+        margin: 0;
+        padding: 0;
+        border 0;
+      }
+      div, span, article, section, header, footer, p, ul, li, fieldset, legend, label {
+        box-sizing: border-box;
+      }
+      html {
+        height: 100%;
+      }
+      .stage {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+        perspective: 800px;
+      }
+      .box {
+        width: 100px;
+        height: 150px;
+        font-size: 2rem;
+        color: white;
+        background: green;
+
+        transform: rotateY(0deg);
+      }
+      .flipped .box {
+        transform: rotateY(180deg);
+        transition: 1s;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="stage">
+       <div class="box">box</div>
+    </div>
+    <script>
+         var box = document.querySelector('.box')
+         box.addEventListener('click', function() {
+          alert(1);
+         })/*오류*/
+    </script>
+
+  </body>
+</html>
